@@ -2,8 +2,8 @@
 
 function Hangman(word) {
 	this.word = word.trim();
-	this.wordLow = word.toLowerCase();
-	this.myTry = [...(word.replace(/\w/g, '_'))];
+	this.wordLow = this.word.toLowerCase();
+	this.myTry = [...(this.word.replace(/\w/g, '_'))];
 	this.trys = 6;
 	this.letters = [];
 	this.won = false;
