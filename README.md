@@ -1,7 +1,7 @@
 # Hangman-racoon
 
 For runing:
-$ node hangman
+<br/>node hangman
 
 Hangman word changing in hangman.js
 line 79
